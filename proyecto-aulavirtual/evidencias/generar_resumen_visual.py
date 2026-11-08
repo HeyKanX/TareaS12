@@ -52,16 +52,14 @@ def card(x: float, y: float, w: float, h: float, title: str) -> None:
 
 ax.text(5, 96, "EVIDENCIA VISUAL · AULA NOVA", fontsize=11, fontweight="bold", color=blue, va="top")
 ax.text(5, 91, "Resumen de resultados de calidad", fontsize=25, fontweight="bold", color=navy, va="top")
-ax.text(5, 86.8, "Datos consolidados de pruebas, cobertura, ESLint y rendimiento · 7 de noviembre de 2026", fontsize=11, color=muted, va="top")
+ax.text(5, 86.8, "Datos consolidados de pruebas, cobertura, ESLint y rendimiento · 8 de noviembre de 2026", fontsize=11, color=muted, va="top")
 
 card(4, 56, 44, 27, "Pruebas automatizadas · UniReport")
 ax.text(7, 72, f"{latest['passed']}/{latest['total']}", fontsize=28, fontweight="bold", color=green, va="center")
 ax.text(25, 72, "aprobadas", fontsize=12, color=muted, va="center")
 ax.text(7, 65.5, f"{latest['passRate']:.0f}% pass rate", fontsize=14, fontweight="bold", color=navy, va="center")
 ax.text(7, 60.8, f"{latest['failed']} fallidas  ·  {latest['flaky']} flaky  ·  {len(history)} ejecuciones en el historial", fontsize=10.5, color=muted, va="center")
-old_runs = sum(1 for run in history if run["total"] == 38)
-new_runs = sum(1 for run in history if run["total"] == 46)
-ax.text(7, 57.6, f"{old_runs} ejecuciones de 38/38 · {new_runs} ejecuciones de 46/46.", fontsize=9.5, color=muted, va="center")
+ax.text(7, 57.6, f"{latest['total'] - 14} casos base · 14 casos adicionales.", fontsize=9.5, color=muted, va="center")
 
 card(52, 56, 44, 27, "Cobertura final · objetivos cumplidos")
 coverage_rows = [("Instrucciones", coverage["statements"], 80), ("Líneas", coverage["lines"], 80), ("Funciones", coverage["functions"], 80), ("Ramas", coverage["branches"], 70)]

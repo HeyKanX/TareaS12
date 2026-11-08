@@ -22,7 +22,7 @@ npm ci
 npm run quality
 ```
 
-Ejecuta ESLint, servidor, unitarias, API, cobertura, E2E y UniReport en el orden recomendado por la tarea. Playwright inicia su servidor temporal en el puerto 4173 y guarda una captura por escenario aprobado. `npm test` ejecuta la batería automatizada y UniReport sin lint ni cobertura.
+Ejecuta ESLint, pruebas de servidor, unitarias, integración API, E2E, casos adicionales, cobertura y UniReport. El flujo sigue para generar los reportes JUnit aunque una suite falle y termina con código distinto de cero si hubo fallos. Playwright inicia su servidor temporal en el puerto 4173 y guarda una captura por escenario aprobado.
 
 ## Análisis adicionales
 
@@ -58,4 +58,4 @@ Las capturas visuales están organizadas en [`evidencias/`](evidencias/README.md
 
 Consulta [GUIA_DEMOSTRACION.md](GUIA_DEMOSTRACION.md) para preparar la sustentación práctica.
 
-Para una corrida didáctica separada con escenarios de fallos del caso ficticio, consulta [SIMULACION_FALLOS.md](7.%20Reportes%20y%20tendencias%20de%20pruebas/SIMULACION_FALLOS.md). Esa simulación no altera la batería base ni sus reportes.
+El UniReport principal registra 48 aprobadas y 12 fallidas (80 %) en 60 casos JUnit. Consulta [CASOS_ADICIONALES.md](7.%20Reportes%20y%20tendencias%20de%20pruebas/CASOS_ADICIONALES.md) para el inventario y [GUIA_DEMOSTRACION.md](GUIA_DEMOSTRACION.md) para presentar el flujo.

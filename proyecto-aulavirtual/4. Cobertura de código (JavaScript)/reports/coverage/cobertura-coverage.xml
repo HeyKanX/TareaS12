@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="191" lines-covered="180" line-rate="0.9423999999999999" branches-valid="99" branches-covered="76" branch-rate="0.7676000000000001" timestamp="1794103488197" complexity="0" version="0.1">
+<coverage lines-valid="191" lines-covered="180" line-rate="0.9423999999999999" branches-valid="99" branches-covered="76" branch-rate="0.7676000000000001" timestamp="1794115684826" complexity="0" version="0.1">
   <sources>
-    <source>C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\proyecto-aulavirtual</source>
+    <source>C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual</source>
   </sources>
   <packages>
     <package name="app" line-rate="0.9722" branch-rate="0.8571">

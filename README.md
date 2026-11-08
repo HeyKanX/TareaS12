@@ -11,4 +11,4 @@ La carpeta [`proyecto-aulavirtual`](./proyecto-aulavirtual) permite revisar cada
 
 Consulta [`proyecto-aulavirtual/README.md`](./proyecto-aulavirtual/README.md) para ejecutar el flujo de calidad con `npm run quality`.
 
-La rama [`simulacion-fallos-80`](https://github.com/HeyKanX/TareaS12/tree/simulacion-fallos-80) agrega una corrida didáctica independiente que llega al 80% y conserva `main` con los entregables originales. Consulta [`SIMULACION_FALLOS.md`](./proyecto-aulavirtual/7.%20Reportes%20y%20tendencias%20de%20pruebas/SIMULACION_FALLOS.md) para reproducirla.
+La rama `main` contiene el conjunto completo de pruebas y sus resultados JUnit consolidados. El último reporte documentado registra 48/60 aprobadas (80 %); consulta `proyecto-aulavirtual/7. Reportes y tendencias de pruebas/CASOS_ADICIONALES.md` para el inventario.

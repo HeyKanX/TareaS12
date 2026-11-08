@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="14" failures="12" errors="0" time="2.195">
-  <testsuite name="undefined" errors="0" failures="12" skipped="0" timestamp="2026-11-08T03:55:08" time="0.585" tests="14">
-    <testcase classname=" control: acepta una consulta válida" name=" control: acepta una consulta válida" time="0.048" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+<testsuites name="jest tests" tests="14" failures="12" errors="0" time="3.299">
+  <testsuite name="undefined" errors="0" failures="12" skipped="0" timestamp="2026-11-08T05:28:44" time="0.945" tests="14">
+    <testcase classname=" control: acepta una consulta válida" name=" control: acepta una consulta válida" time="0.082" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
     </testcase>
-    <testcase classname=" control: una nota final de 11 se muestra aprobada" name=" control: una nota final de 11 se muestra aprobada" time="0.035" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" control: una nota final de 11 se muestra aprobada" name=" control: una nota final de 11 se muestra aprobada" time="0.065" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
     </testcase>
-    <testcase classname=" SIMULACIÓN: una nota desaprobatoria debe indicarse en la tabla" name=" SIMULACIÓN: una nota desaprobatoria debe indicarse en la tabla" time="0.025" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" una nota desaprobatoria debe indicarse en la tabla" name=" una nota desaprobatoria debe indicarse en la tabla" time="0.033" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(received).toContain(expected) // indexOf
 
 Expected substring: &quot;Desaprobado&quot;
 Received string:    &quot;CálculoDra. Elena Torres
       15.015.015.0
       10.9Aprobado&quot;
-    at Object.toContain (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:35:76)
+    at Object.toContain (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:35:76)
     at Promise.finally.completed (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
     at new Promise (&lt;anonymous&gt;)
     at callAsyncCircusFn (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)
@@ -27,11 +27,11 @@ Received string:    &quot;CálculoDra. Elena Torres
     at runTestInternal (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:247:16)
     at runTest (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:315:7)</failure>
     </testcase>
-    <testcase classname=" SIMULACIÓN: el curso con espacios se rechaza antes de llamar a la API" name=" SIMULACIÓN: el curso con espacios se rechaza antes de llamar a la API" time="0.017" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" el curso con espacios se rechaza antes de llamar a la API" name=" el curso con espacios se rechaza antes de llamar a la API" time="0.029" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(received).not.toBe(expected) // Object.is equality
 
 Expected: not &quot;&quot;
-    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:39:106)
+    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:39:106)
     at Promise.finally.completed (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
     at new Promise (&lt;anonymous&gt;)
     at callAsyncCircusFn (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)
@@ -46,11 +46,11 @@ Expected: not &quot;&quot;
     at runTestInternal (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:247:16)
     at runTest (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:315:7)</failure>
     </testcase>
-    <testcase classname=" SIMULACIÓN: courseId debe ser una cadena" name=" SIMULACIÓN: courseId debe ser una cadena" time="0.01" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" courseId debe ser una cadena" name=" courseId debe ser una cadena" time="0.016" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(received).not.toBe(expected) // Object.is equality
 
 Expected: not &quot;&quot;
-    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:43:119)
+    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:43:119)
     at Promise.finally.completed (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
     at new Promise (&lt;anonymous&gt;)
     at callAsyncCircusFn (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)
@@ -65,11 +65,11 @@ Expected: not &quot;&quot;
     at runTestInternal (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:247:16)
     at runTest (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:315:7)</failure>
     </testcase>
-    <testcase classname=" SIMULACIÓN: el formulario rechaza IDs de cursos inexistentes" name=" SIMULACIÓN: el formulario rechaza IDs de cursos inexistentes" time="0.01" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" el formulario rechaza IDs de cursos inexistentes" name=" el formulario rechaza IDs de cursos inexistentes" time="0.018" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(received).not.toBe(expected) // Object.is equality
 
 Expected: not &quot;&quot;
-    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:47:120)
+    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:47:120)
     at Promise.finally.completed (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
     at new Promise (&lt;anonymous&gt;)
     at callAsyncCircusFn (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)
@@ -84,7 +84,7 @@ Expected: not &quot;&quot;
     at runTestInternal (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:247:16)
     at runTest (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:315:7)</failure>
     </testcase>
-    <testcase classname=" SIMULACIÓN: el progreso de una nota negativa se limita a cero" name=" SIMULACIÓN: el progreso de una nota negativa se limita a cero" time="0.01" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" el progreso de una nota negativa se limita a cero" name=" el progreso de una nota negativa se limita a cero" time="0.017" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(received).toContain(expected) // indexOf
 
 Expected substring: &quot;width-0&quot;
@@ -93,7 +93,7 @@ Received string:    &quot;&lt;article class=\&quot;course-row\&quot;&gt;
     &lt;div class=\&quot;course-main\&quot;&gt;&lt;strong&gt;Cálculo&lt;/strong&gt;&lt;span&gt;Dra. Elena Torres · Lun&lt;/span&gt;&lt;/div&gt;
     &lt;div class=\&quot;course-grade\&quot;&gt;&lt;strong&gt;-4.0&lt;/strong&gt;&lt;span&gt;Promedio&lt;/span&gt;&lt;div class=\&quot;course-progress\&quot;&gt;&lt;i class=\&quot;width--20\&quot;&gt;&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;
   &lt;/article&gt;&quot;
-    at Object.toContain (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:51:62)
+    at Object.toContain (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:51:62)
     at Promise.finally.completed (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
     at new Promise (&lt;anonymous&gt;)
     at callAsyncCircusFn (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)
@@ -108,12 +108,12 @@ Received string:    &quot;&lt;article class=\&quot;course-row\&quot;&gt;
     at runTestInternal (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:247:16)
     at runTest (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:315:7)</failure>
     </testcase>
-    <testcase classname=" SIMULACIÓN: cambiar de sección agrega una entrada al historial" name=" SIMULACIÓN: cambiar de sección agrega una entrada al historial" time="0.02" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" cambiar de sección agrega una entrada al historial" name=" cambiar de sección agrega una entrada al historial" time="0.033" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(jest.fn()).toHaveBeenCalled()
 
 Expected number of calls: &gt;= 1
 Received number of calls:    0
-    at Object.toHaveBeenCalled (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:57:21)
+    at Object.toHaveBeenCalled (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:57:21)
     at Promise.finally.completed (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
     at new Promise (&lt;anonymous&gt;)
     at callAsyncCircusFn (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)
@@ -128,12 +128,12 @@ Received number of calls:    0
     at runTestInternal (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:247:16)
     at runTest (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:315:7)</failure>
     </testcase>
-    <testcase classname=" SIMULACIÓN: volver en el navegador sincroniza la sección visible" name=" SIMULACIÓN: volver en el navegador sincroniza la sección visible" time="0.023" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" volver en el navegador sincroniza la sección visible" name=" volver en el navegador sincroniza la sección visible" time="0.041" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(received).toBe(expected) // Object.is equality
 
 Expected: false
 Received: true
-    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:65:79)
+    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:65:79)
     at Promise.finally.completed (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
     at new Promise (&lt;anonymous&gt;)
     at callAsyncCircusFn (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)
@@ -148,14 +148,14 @@ Received: true
     at runTestInternal (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:247:16)
     at runTest (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:315:7)</failure>
     </testcase>
-    <testcase classname=" SIMULACIÓN: el menú conserva los dos apellidos del estudiante" name=" SIMULACIÓN: el menú conserva los dos apellidos del estudiante" time="0.04" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" el menú conserva los dos apellidos del estudiante" name=" el menú conserva los dos apellidos del estudiante" time="0.065" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(received).toBe(expected) // Object.is equality
 
 Expected: &quot;María García López&quot;
 Received: &quot;María García&quot;
-    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:76:63)</failure>
+    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:76:63)</failure>
     </testcase>
-    <testcase classname=" SIMULACIÓN: una fecha inválida no interrumpe el renderizado de la bandeja" name=" SIMULACIÓN: una fecha inválida no interrumpe el renderizado de la bandeja" time="0.025" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" una fecha inválida no interrumpe el renderizado de la bandeja" name=" una fecha inválida no interrumpe el renderizado de la bandeja" time="0.039" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(received).not.toThrow()
 
 Error name:    &quot;RangeError&quot;
@@ -172,11 +172,11 @@ Error message: &quot;Invalid time value&quot;
       at format (app/app.js:78:129)
           at Array.map (&lt;anonymous&gt;)
       at Object.map [as renderMessages] (app/app.js:75:49)
-      at renderMessages (7. Reportes y tendencias de pruebas/simulacion-fallos.test.js:81:20)
+      at renderMessages (7. Reportes y tendencias de pruebas/additional-cases.test.js:81:20)
       at Object.&lt;anonymous&gt; (node_modules/expect/build/index.js:1824:9)
       at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:2235:93)
-      at Object.toThrow (7. Reportes y tendencias de pruebas/simulacion-fallos.test.js:81:42)
-    at Object.toThrow (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:81:42)
+      at Object.toThrow (7. Reportes y tendencias de pruebas/additional-cases.test.js:81:42)
+    at Object.toThrow (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:81:42)
     at Promise.finally.completed (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
     at new Promise (&lt;anonymous&gt;)
     at callAsyncCircusFn (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)
@@ -191,12 +191,12 @@ Error message: &quot;Invalid time value&quot;
     at runTestInternal (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:247:16)
     at runTest (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:315:7)</failure>
     </testcase>
-    <testcase classname=" SIMULACIÓN: la lista vacía de cursos muestra una explicación" name=" SIMULACIÓN: la lista vacía de cursos muestra una explicación" time="0.011" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" la lista vacía de cursos muestra una explicación" name=" la lista vacía de cursos muestra una explicación" time="0.019" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(received).toMatch(expected)
 
 Expected pattern: /no tienes cursos/i
 Received string:  &quot;&quot;
-    at Object.toMatch (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:87:62)
+    at Object.toMatch (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:87:62)
     at Promise.finally.completed (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
     at new Promise (&lt;anonymous&gt;)
     at callAsyncCircusFn (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)
@@ -211,12 +211,12 @@ Received string:  &quot;&quot;
     at runTestInternal (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:247:16)
     at runTest (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:315:7)</failure>
     </testcase>
-    <testcase classname=" SIMULACIÓN: Escape cierra el menú lateral en móviles" name=" SIMULACIÓN: Escape cierra el menú lateral en móviles" time="0.016" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" Escape cierra el menú lateral en móviles" name=" Escape cierra el menú lateral en móviles" time="0.027" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(received).toBe(expected) // Object.is equality
 
 Expected: false
 Received: true
-    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:94:73)
+    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:94:73)
     at Promise.finally.completed (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
     at new Promise (&lt;anonymous&gt;)
     at callAsyncCircusFn (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)
@@ -231,12 +231,12 @@ Received: true
     at runTestInternal (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:247:16)
     at runTest (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-runner\build\index.js:315:7)</failure>
     </testcase>
-    <testcase classname=" SIMULACIÓN: sin cursos, el acceso a redactar un mensaje queda deshabilitado" name=" SIMULACIÓN: sin cursos, el acceso a redactar un mensaje queda deshabilitado" time="0.017" file="7. Reportes y tendencias de pruebas\simulacion-fallos.test.js">
+    <testcase classname=" sin cursos, el acceso a redactar un mensaje queda deshabilitado" name=" sin cursos, el acceso a redactar un mensaje queda deshabilitado" time="0.03" file="7. Reportes y tendencias de pruebas\additional-cases.test.js">
       <failure>Error: expect(received).toBe(expected) // Object.is equality
 
 Expected: true
 Received: false
-    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\simulacion-fallos.test.js:100:66)
+    at Object.toBe (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\7. Reportes y tendencias de pruebas\additional-cases.test.js:100:66)
     at Promise.finally.completed (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
     at new Promise (&lt;anonymous&gt;)
     at callAsyncCircusFn (C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\TareaS12-publicacion\proyecto-aulavirtual\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)

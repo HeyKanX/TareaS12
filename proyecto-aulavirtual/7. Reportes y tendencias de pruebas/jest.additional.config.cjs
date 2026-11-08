@@ -7,12 +7,12 @@ const junitReporter = require.resolve("jest-junit", { paths: [rootDir] });
 module.exports = {
   rootDir,
   testEnvironment: "jsdom",
-  testRegex: "simulacion-fallos\\.test\\.js$",
+  testRegex: "additional-cases\\.test\\.js$",
   reporters: [
     "default",
     [junitReporter, {
-      outputDirectory: "<rootDir>/7. Reportes y tendencias de pruebas/reports/simulation/junit",
-      outputName: "simulacion.xml",
+      outputDirectory: "<rootDir>/7. Reportes y tendencias de pruebas/reports/additional/junit",
+      outputName: "additional-cases.xml",
       addFileAttribute: "true",
     }],
   ],

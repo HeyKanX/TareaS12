@@ -18,7 +18,7 @@ npm ci
 npm run quality
 ```
 
-El flujo muestra ESLint, las pruebas de servidor, unitarias, de integración, cobertura, E2E y UniReport. La última ejecución registrada pasó 53 pruebas; UniReport consolida 46 casos JUnit de Jest y Playwright. Playwright guarda una captura para cada uno de sus diez escenarios aprobados.
+El flujo muestra ESLint, las pruebas del servidor, unitarias, de integración, casos adicionales, cobertura, E2E y UniReport. La última corrida consolida 60 casos JUnit: 48 aprobados y 12 fallidos (80 %). También ejecuta 7 pruebas `node:test` del servidor, reportadas por separado. Playwright guarda una captura para cada uno de sus diez escenarios aprobados.
 
 ## Demostración de rendimiento
 
@@ -39,4 +39,4 @@ La ejecución documentada se realizó contra el servidor local. Explica que no s
 - Informe técnico: `Informe_Tecnico_Calidad_AulaNova_Semana12.docx`.
 - Índice de evidencias visuales: `evidencias/README.md`.
 
-En la sustentación, diferencia las 53 pruebas de la batería completa (incluye 7 con `node:test`) de las 46 pruebas JUnit que consolida UniReport.
+En la sustentación, diferencia los 60 casos JUnit de las 7 pruebas `node:test` del servidor; estas últimas no forman parte del porcentaje de UniReport.

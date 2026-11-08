@@ -6,15 +6,14 @@ const { XMLParser } = require("fast-xml-parser");
 
 const rootDir = path.resolve(__dirname, "..");
 const reportDir = path.join(__dirname, "reports");
-const simulationMode = process.argv.includes("--simulation");
 const junitDirs = [
   path.join(rootDir, "1. Unitarias (cliente y servidor)", "reports", "junit"),
   path.join(rootDir, "2. Integración_API (servidor Node.js)", "reports", "junit"),
   path.join(rootDir, "3. End-to-End (E2E) en navegador", "reports", "junit"),
-  ...(simulationMode ? [path.join(reportDir, "simulation", "junit")] : []),
+  path.join(reportDir, "additional", "junit"),
 ];
-const historyPath = path.join(reportDir, simulationMode ? "unireport-simulacion-history.json" : "unireport-history.json");
-const outputPath = path.join(reportDir, simulationMode ? "unireport-simulacion.html" : "unireport.html");
+const historyPath = path.join(reportDir, "unireport-history.json");
+const outputPath = path.join(reportDir, "unireport.html");
 
 function asArray(value) {
   if (value === null || value === undefined) return [];
@@ -34,11 +33,13 @@ function collectTestCases(node, result = []) {
 
 function countFlaky(node) {
   if (!node || typeof node !== "object") return 0;
-  if (node.outcome === "flaky") return 1;
-  return Object.values(node).reduce((total, value) => {
-    const items = Array.isArray(value) ? value : [value];
-    return total + items.reduce((sum, item) => sum + countFlaky(item), 0);
-  }, 0);
+  if (Array.isArray(node)) return node.reduce((total, item) => total + countFlaky(item), 0);
+  let total = node.outcome === "flaky" ? 1 : 0;
+  if (Array.isArray(node.tests)) {
+    total += node.tests.filter(test => test.status === "expected"
+      && asArray(test.results).some(result => Number(result.retry) > 0)).length;
+  }
+  return Object.entries(node).reduce((sum, [key, value]) => key === "tests" ? sum : sum + countFlaky(value), total);
 }
 
 function escapeHtml(value) {
@@ -92,13 +93,9 @@ function renderHtml(result, history) {
     <td>${run.total}</td><td>${run.passed}</td><td>${run.failed}</td>
     <td>${run.passRate}%</td><td>${run.stability}%</td><td>${run.flakyRate}%</td></tr>`).join("");
   const sources = result.sources.length ? result.sources.map(escapeHtml).join(", ") : "No hay XML JUnit; ejecuta las suites primero.";
-  const heading = simulationMode ? "UniReport — Simulación de fallos" : "UniReport — Aula Virtual";
-  const description = simulationMode
-    ? "Corrida académica de simulación con escenarios ampliados para observar fallos reproducibles."
-    : "Resultados de Jest y Playwright en formato JUnit.";
-  const countNote = simulationMode
-    ? "Este reporte combina la batería original con 14 escenarios adicionales de simulación, identificados con el prefijo SIMULACIÓN. Se usa para analizar fallos en el caso ficticio del curso; el dashboard principal conserva los resultados base."
-    : "La batería base reúne pruebas unitarias, de API y E2E. Los escenarios k6 se reportan en su resumen JSON, no como casos JUnit.";
+  const heading = "UniReport — Aula Virtual";
+  const description = "Resultados consolidados de Jest y Playwright en formato JUnit.";
+  const countNote = `La batería contiene ${result.total} casos JUnit: 38 unitarios y adicionales, 12 de API y 10 E2E. Esta corrida registra ${result.passed} aprobadas y ${result.failed} fallidas. Los escenarios k6 se reportan aparte en su resumen JSON.`;
   return `<!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${heading}</title>
@@ -114,7 +111,7 @@ h1{color:#253a64}.cards{display:grid;grid-template-columns:repeat(auto-fit,minma
 <article class="card"><div class="value">${result.stability}%</div><div class="label">Stability Score</div></article>
 <article class="card"><div class="value">${result.flakyRate}%</div><div class="label">Flaky</div></article>
 <article class="card"><div class="value">${result.passed}/${result.total}</div><div class="label">Pruebas JUnit aprobadas</div></article>
-</div><section><h2>${simulationMode ? "Escenarios de la simulación" : "Resumen de pruebas"}</h2>
+</div><section><h2>Resumen de pruebas</h2>
 <p>${countNote}</p></section>
 <section><h2>Tendencia (${history.length} ejecuciones)</h2>
 <table><thead><tr><th>Fecha</th><th>Total</th><th>Passed</th><th>Failed</th><th>Pass Rate</th><th>Stability</th><th>Flaky</th></tr></thead>
@@ -129,5 +126,5 @@ h1{color:#253a64}.cards{display:grid;grid-template-columns:repeat(auto-fit,minma
 const result = readResults();
 const history = saveHistory(result);
 fs.writeFileSync(outputPath, renderHtml(result, history), "utf8");
-console.log(`${simulationMode ? "UniReport de simulación" : "UniReport"}: ${result.passed}/${result.total} aprobadas; ${result.failed} fallidas; pass rate ${result.passRate}%.`);
+console.log(`UniReport: ${result.passed}/${result.total} aprobadas; ${result.failed} fallidas; pass rate ${result.passRate}%.`);
 console.log(`Dashboard: ${outputPath}`);

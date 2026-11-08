@@ -85,6 +85,8 @@ test("E2E10 conserva los mensajes al recargar durante la sesión", async ({ page
   await page.locator("#message-subject").fill("Consulta después de recargar");
   await page.locator("#message-body").fill("Confirmar persistencia temporal.");
   await page.getByRole("button", { name: /Enviar mensaje/ }).click();
+  await expect(page.locator("#toast")).toContainText("Mensaje enviado correctamente");
+  await expect(page.locator("#messages-list")).toContainText("Consulta después de recargar");
   await page.reload();
   await page.locator('[data-view="mensajes"]').first().click();
   await expect(page.locator("#messages-list")).toContainText("Consulta después de recargar");

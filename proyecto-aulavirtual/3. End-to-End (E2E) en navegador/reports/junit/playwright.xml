@@ -1,69 +1,69 @@
-<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="0" time="33.57706699999999">
-<testsuite name="aula.e2e.test.js" timestamp="2026-11-08T02:04:49.816Z" hostname="" tests="10" failures="0" skipped="0" time="31.424" errors="0">
-<testcase name="E2E01 carga el dashboard principal" classname="aula.e2e.test.js" time="1.286">
+<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="0" time="34.636773999999996">
+<testsuite name="aula.e2e.test.js" timestamp="2026-11-08T05:28:06.883Z" hostname="" tests="10" failures="0" skipped="0" time="31.776" errors="0">
+<testcase name="E2E01 carga el dashboard principal" classname="aula.e2e.test.js" time="20.175">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\aula.e2e-E2E01-carga-el-dashboard-principal\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="E2E02 muestra los datos del perfil" classname="aula.e2e.test.js" time="1.13">
+<testcase name="E2E02 muestra los datos del perfil" classname="aula.e2e.test.js" time="1.114">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\aula.e2e-E2E02-muestra-los-datos-del-perfil\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="E2E03 muestra los cuatro cursos matriculados" classname="aula.e2e.test.js" time="1.052">
+<testcase name="E2E03 muestra los cuatro cursos matriculados" classname="aula.e2e.test.js" time="1.131">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\aula.e2e-E2E03-muestra-los-cuatro-cursos-matriculados\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="E2E04 presenta las calificaciones registradas" classname="aula.e2e.test.js" time="1.059">
+<testcase name="E2E04 presenta las calificaciones registradas" classname="aula.e2e.test.js" time="1.143">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\aula.e2e-E2E04-presenta-las-calificaciones-registradas\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="E2E05 abre la bandeja de mensajes" classname="aula.e2e.test.js" time="20.109">
+<testcase name="E2E05 abre la bandeja de mensajes" classname="aula.e2e.test.js" time="1.136">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\aula.e2e-E2E05-abre-la-bandeja-de-mensajes\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="E2E06 abre y cierra el diálogo de mensaje" classname="aula.e2e.test.js" time="1.26">
+<testcase name="E2E06 abre y cierra el diálogo de mensaje" classname="aula.e2e.test.js" time="1.319">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\aula.e2e-E2E06-abre-y-cierra-el-diálogo-de-mensaje\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="E2E07 envía un mensaje válido al docente del curso" classname="aula.e2e.test.js" time="1.215">
+<testcase name="E2E07 envía un mensaje válido al docente del curso" classname="aula.e2e.test.js" time="1.349">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\aula.e2e-E2E07-envía-un-mensaje-válido-al-docente-del-curso\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="E2E08 valida un mensaje incompleto sin enviarlo" classname="aula.e2e.test.js" time="1.283">
+<testcase name="E2E08 valida un mensaje incompleto sin enviarlo" classname="aula.e2e.test.js" time="1.393">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\aula.e2e-E2E08-valida-un-mensaje-incompleto-sin-enviarlo\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="E2E09 navega por todas las secciones" classname="aula.e2e.test.js" time="1.524">
+<testcase name="E2E09 navega por todas las secciones" classname="aula.e2e.test.js" time="1.522">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\aula.e2e-E2E09-navega-por-todas-las-secciones\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="E2E10 conserva los mensajes al recargar durante la sesión" classname="aula.e2e.test.js" time="1.506">
+<testcase name="E2E10 conserva los mensajes al recargar durante la sesión" classname="aula.e2e.test.js" time="1.494">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\aula.e2e-E2E10-conserva-lo-b95db--recargar-durante-la-sesión\test-finished-1.png]]

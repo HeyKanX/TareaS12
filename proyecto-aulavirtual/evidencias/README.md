@@ -16,7 +16,6 @@ La carpeta reúne capturas tomadas en VS Code Insiders y una lámina complementa
 | 08 | JUnit: Playwright E2E, 10 pruebas y cero fallas | [08-pruebas-e2e-junit.jpg](./08-pruebas-e2e-junit.jpg) |
 | 09 | Análisis comparativo de ESLint, cero errores y tres advertencias | [09-resultados-eslint.jpg](./09-resultados-eslint.jpg) |
 | 10 | Métricas de rendimiento k6 por escenario | [10-rendimiento-k6.jpg](./10-rendimiento-k6.jpg) |
-| 11 | Última entrada del historial UniReport, 46/46 aprobadas | [11-unireport-historial.jpg](./11-unireport-historial.jpg) |
 
 ## Capturas de configuración de las herramientas
 
@@ -31,7 +30,7 @@ La carpeta reúne capturas tomadas en VS Code Insiders y una lámina complementa
 | k6 · endpoints y perfiles de carga | [aula.js](./config-06-k6.jpg) |
 | UniReport · lectura de JUnit e historial | [unireport.cjs](./config-07-unireport.jpg) |
 | ESLint · reglas y alcance | [eslint.config.cjs](./03-configuracion-eslint.jpg) |
-Las capturas JUnit corresponden a los artefactos de la última ejecución registrada. Juntas documentan 46 pruebas automatizadas: 24 unitarias, 12 de API y 10 E2E.
+Las capturas JUnit muestran los resultados por suite. El dashboard consolidado incluye además los casos adicionales y registra 60 pruebas: 48 aprobadas y 12 fallidas.
 
 ## Capturas de interfaz generadas por Playwright
 

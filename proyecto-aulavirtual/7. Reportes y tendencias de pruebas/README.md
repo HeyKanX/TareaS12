@@ -7,14 +7,14 @@ Se implementó una adaptación local de UniReport con `fast-xml-parser`: importa
 ## Archivos
 
 - `unireport.cjs`: genera el dashboard.
-- `reports/unireport.html`: indicadores y tendencia.
+- `reports/unireport.html`: indicadores y tendencia de los 60 casos JUnit.
 - `reports/unireport-history.json`: historial de ejecuciones.
 
 ## Comandos
 
-Desde la raíz ejecuta `npm test` para las suites y el dashboard, o `npm run report` para regenerarlo. Ejecuta la batería completa al menos tres veces para comparar tendencias.
+Desde la raíz ejecuta `npm test` o `npm run quality` para correr las suites y regenerar el dashboard principal. Ejecuta la batería completa al menos tres veces para comparar tendencias.
 
-# Escenario opcional del curso
+# Casos adicionales
 
-La batería original conserva sus resultados. Para ejecutar el conjunto ficticio con fallas esperadas y un UniReport separado al 80%, consulta [SIMULACION_FALLOS.md](./SIMULACION_FALLOS.md) y ejecuta `npm run simulation`.
+La suite adicional se incluye en el total principal del dashboard. Consulta [CASOS_ADICIONALES.md](./CASOS_ADICIONALES.md) para el inventario y ejecuta `npm run quality` para actualizar los reportes.
 

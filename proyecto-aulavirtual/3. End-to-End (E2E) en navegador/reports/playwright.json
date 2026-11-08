@@ -2,13 +2,13 @@
   "config": {
     "argv": [
       "C:\\Program Files\\nodejs\\node.exe",
-      "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\node_modules\\@playwright\\test\\cli.js",
+      "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\node_modules\\@playwright\\test\\cli.js",
       "test",
       "--config",
       "3. End-to-End (E2E) en navegador/playwright.config.cjs"
     ],
-    "configFile": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\playwright.config.cjs",
-    "rootDir": "C:/Users/thehe/Documents/Practica_AulaVirtual_Semana12/proyecto-aulavirtual/3. End-to-End (E2E) en navegador",
+    "configFile": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\playwright.config.cjs",
+    "rootDir": "C:/Users/thehe/Documents/Practica_AulaVirtual_Semana12/TareaS12-publicacion/proyecto-aulavirtual/3. End-to-End (E2E) en navegador",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": false,
@@ -24,7 +24,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Users/thehe/Documents/Practica_AulaVirtual_Semana12/proyecto-aulavirtual/3. End-to-End (E2E) en navegador/reports/test-results",
+        "outputDir": "C:/Users/thehe/Documents/Practica_AulaVirtual_Semana12/TareaS12-publicacion/proyecto-aulavirtual/3. End-to-End (E2E) en navegador/reports/test-results",
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
@@ -32,7 +32,7 @@
         },
         "id": "",
         "name": "",
-        "testDir": "C:/Users/thehe/Documents/Practica_AulaVirtual_Semana12/proyecto-aulavirtual/3. End-to-End (E2E) en navegador",
+        "testDir": "C:/Users/thehe/Documents/Practica_AulaVirtual_Semana12/TareaS12-publicacion/proyecto-aulavirtual/3. End-to-End (E2E) en navegador",
         "testIgnore": [],
         "testMatch": [
           "**/*.e2e.test.js"
@@ -44,15 +44,15 @@
       {
         "grep": {},
         "grepInvert": null,
-        "outputDir": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results",
+        "outputDir": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results",
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
           "actualWorkers": 1
         },
         "name": "",
-        "testDir": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador",
-        "snapshotDir": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador",
+        "testDir": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador",
+        "snapshotDir": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador",
         "testIgnore": [],
         "testMatch": "**/*.e2e.test.js",
         "timeout": 30000,
@@ -78,19 +78,19 @@
       [
         "junit",
         {
-          "outputFile": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+          "outputFile": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
         }
       ],
       [
         "json",
         {
-          "outputFile": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\playwright.json"
+          "outputFile": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\playwright.json"
         }
       ],
       [
         "html",
         {
-          "outputFolder": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\playwright-html",
+          "outputFolder": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\playwright-html",
           "open": "never"
         }
       ]
@@ -107,7 +107,7 @@
     "workers": 1,
     "webServer": {
       "command": "node backend/server.js",
-      "cwd": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual",
+      "cwd": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual",
       "url": "http://127.0.0.1:4173/api/student",
       "reuseExistingServer": true,
       "timeout": 30000,
@@ -139,18 +139,18 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1286,
+                  "duration": 20175,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T02:04:50.359Z",
+                  "startTime": "2026-11-08T05:28:07.581Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E01-carga-el-dashboard-principal\\test-finished-1.png"
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E01-carga-el-dashboard-principal\\test-finished-1.png"
                     }
                   ]
                 }
@@ -179,18 +179,18 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1130,
+                  "duration": 1114,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T02:04:52.042Z",
+                  "startTime": "2026-11-08T05:28:28.305Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E02-muestra-los-datos-del-perfil\\test-finished-1.png"
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E02-muestra-los-datos-del-perfil\\test-finished-1.png"
                     }
                   ]
                 }
@@ -219,18 +219,18 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1052,
+                  "duration": 1131,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T02:04:53.194Z",
+                  "startTime": "2026-11-08T05:28:29.446Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E03-muestra-los-cuatro-cursos-matriculados\\test-finished-1.png"
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E03-muestra-los-cuatro-cursos-matriculados\\test-finished-1.png"
                     }
                   ]
                 }
@@ -259,18 +259,18 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1059,
+                  "duration": 1143,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T02:04:54.270Z",
+                  "startTime": "2026-11-08T05:28:30.606Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E04-presenta-las-calificaciones-registradas\\test-finished-1.png"
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E04-presenta-las-calificaciones-registradas\\test-finished-1.png"
                     }
                   ]
                 }
@@ -299,18 +299,18 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 20109,
+                  "duration": 1136,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T02:04:55.351Z",
+                  "startTime": "2026-11-08T05:28:31.775Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E05-abre-la-bandeja-de-mensajes\\test-finished-1.png"
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E05-abre-la-bandeja-de-mensajes\\test-finished-1.png"
                     }
                   ]
                 }
@@ -339,18 +339,18 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1260,
+                  "duration": 1319,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T02:05:15.484Z",
+                  "startTime": "2026-11-08T05:28:32.937Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E06-abre-y-cierra-el-diálogo-de-mensaje\\test-finished-1.png"
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E06-abre-y-cierra-el-diálogo-de-mensaje\\test-finished-1.png"
                     }
                   ]
                 }
@@ -379,18 +379,18 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1215,
+                  "duration": 1349,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T02:05:16.774Z",
+                  "startTime": "2026-11-08T05:28:34.283Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E07-envía-un-mensaje-válido-al-docente-del-curso\\test-finished-1.png"
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E07-envía-un-mensaje-válido-al-docente-del-curso\\test-finished-1.png"
                     }
                   ]
                 }
@@ -419,18 +419,18 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1283,
+                  "duration": 1393,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T02:05:18.017Z",
+                  "startTime": "2026-11-08T05:28:35.660Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E08-valida-un-mensaje-incompleto-sin-enviarlo\\test-finished-1.png"
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E08-valida-un-mensaje-incompleto-sin-enviarlo\\test-finished-1.png"
                     }
                   ]
                 }
@@ -459,18 +459,18 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1524,
+                  "duration": 1522,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T02:05:19.331Z",
+                  "startTime": "2026-11-08T05:28:37.077Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E09-navega-por-todas-las-secciones\\test-finished-1.png"
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E09-navega-por-todas-las-secciones\\test-finished-1.png"
                     }
                   ]
                 }
@@ -499,18 +499,18 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1506,
+                  "duration": 1494,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T02:05:20.886Z",
+                  "startTime": "2026-11-08T05:28:38.627Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E10-conserva-lo-b95db--recargar-durante-la-sesión\\test-finished-1.png"
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\TareaS12-publicacion\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E10-conserva-lo-b95db--recargar-durante-la-sesión\\test-finished-1.png"
                     }
                   ]
                 }
@@ -528,8 +528,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-08T02:04:49.637Z",
-    "duration": 33577.066999999995,
+    "startTime": "2026-11-08T05:28:06.419Z",
+    "duration": 34636.774,
     "expected": 10,
     "skipped": 0,
     "unexpected": 0,
