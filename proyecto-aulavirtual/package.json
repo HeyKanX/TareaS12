@@ -1,0 +1,34 @@
+{
+  "name": "aula-virtual",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aula virtual universitaria con interfaz web y servidor HTTP",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "npm run test:server && npm run test:unit && npm run test:api && npm run test:e2e && npm run report",
+    "quality": "npm run lint && npm run test:server && npm run test:unit && npm run test:api && npm run test:coverage && npm run test:e2e && npm run report",
+    "test:server": "node --test backend/server.test.js",
+    "test:unit": "jest --config \"1. Unitarias (cliente y servidor)/jest.unit.config.cjs\" --runInBand",
+    "test:api": "jest --config \"2. Integración_API (servidor Node.js)/jest.api.config.cjs\" --runInBand",
+    "test:e2e": "playwright test --config \"3. End-to-End (E2E) en navegador/playwright.config.cjs\"",
+    "test:coverage": "node \"4. Cobertura de código (JavaScript)/scripts/coverage.cjs\"",
+    "lint": "node \"5. Análisis estático (complejidad, code smells)/scripts/lint.cjs\"",
+    "preload": "node -e \"require('node:fs').mkdirSync('6. Rendimiento (tiempos de respuesta, throughput)/reports/k6',{recursive:true})\"",
+    "load": "k6 run --summary-trend-stats \"avg,min,med,max,p(90),p(95),p(99)\" --summary-export \"6. Rendimiento (tiempos de respuesta, throughput)/reports/k6/summary.json\" \"6. Rendimiento (tiempos de respuesta, throughput)/aula.js\"",
+    "report": "node \"7. Reportes y tendencias de pruebas/unireport.cjs\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.65.0",
+    "eslint": "^10.14.0",
+    "fast-xml-parser": "^5.12.0",
+    "globals": "^17.14.0",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "jest-junit": "^17.0.0",
+    "supertest": "^7.3.1"
+  }
+}

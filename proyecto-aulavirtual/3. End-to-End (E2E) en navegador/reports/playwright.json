@@ -1,0 +1,538 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "3. End-to-End (E2E) en navegador/playwright.config.cjs"
+    ],
+    "configFile": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\playwright.config.cjs",
+    "rootDir": "C:/Users/thehe/Documents/Practica_AulaVirtual_Semana12/proyecto-aulavirtual/3. End-to-End (E2E) en navegador",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/thehe/Documents/Practica_AulaVirtual_Semana12/proyecto-aulavirtual/3. End-to-End (E2E) en navegador/reports/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/thehe/Documents/Practica_AulaVirtual_Semana12/proyecto-aulavirtual/3. End-to-End (E2E) en navegador",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.e2e.test.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador",
+        "snapshotDir": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador",
+        "testIgnore": [],
+        "testMatch": "**/*.e2e.test.js",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": true,
+          "trace": "retain-on-failure",
+          "screenshot": "on"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\playwright.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\playwright-html",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node backend/server.js",
+      "cwd": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual",
+      "url": "http://127.0.0.1:4173/api/student",
+      "reuseExistingServer": true,
+      "timeout": 30000,
+      "env": {
+        "PORT": "4173"
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "aula.e2e.test.js",
+      "file": "aula.e2e.test.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "E2E01 carga el dashboard principal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1286,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:04:50.359Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E01-carga-el-dashboard-principal\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7a600257e6a0fdc0a72e-3460f1c4c0b61352accc",
+          "file": "aula.e2e.test.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "E2E02 muestra los datos del perfil",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1130,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:04:52.042Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E02-muestra-los-datos-del-perfil\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7a600257e6a0fdc0a72e-e021f0342c829f01012a",
+          "file": "aula.e2e.test.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "E2E03 muestra los cuatro cursos matriculados",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1052,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:04:53.194Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E03-muestra-los-cuatro-cursos-matriculados\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7a600257e6a0fdc0a72e-2e284eef484e4ee1c715",
+          "file": "aula.e2e.test.js",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "E2E04 presenta las calificaciones registradas",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1059,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:04:54.270Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E04-presenta-las-calificaciones-registradas\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7a600257e6a0fdc0a72e-e03eb41e64a3eacc32b7",
+          "file": "aula.e2e.test.js",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "E2E05 abre la bandeja de mensajes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20109,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:04:55.351Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E05-abre-la-bandeja-de-mensajes\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7a600257e6a0fdc0a72e-215a0daaf59a9c715ebb",
+          "file": "aula.e2e.test.js",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "E2E06 abre y cierra el diálogo de mensaje",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1260,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:05:15.484Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E06-abre-y-cierra-el-diálogo-de-mensaje\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7a600257e6a0fdc0a72e-225dd2b559b97e6561b7",
+          "file": "aula.e2e.test.js",
+          "line": 41,
+          "column": 1
+        },
+        {
+          "title": "E2E07 envía un mensaje válido al docente del curso",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1215,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:05:16.774Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E07-envía-un-mensaje-válido-al-docente-del-curso\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7a600257e6a0fdc0a72e-34a11b97f7cdbb8b1cd1",
+          "file": "aula.e2e.test.js",
+          "line": 50,
+          "column": 1
+        },
+        {
+          "title": "E2E08 valida un mensaje incompleto sin enviarlo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1283,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:05:18.017Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E08-valida-un-mensaje-incompleto-sin-enviarlo\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7a600257e6a0fdc0a72e-d8d30ead5ad601845085",
+          "file": "aula.e2e.test.js",
+          "line": 62,
+          "column": 1
+        },
+        {
+          "title": "E2E09 navega por todas las secciones",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1524,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:05:19.331Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E09-navega-por-todas-las-secciones\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7a600257e6a0fdc0a72e-764b1a884a54f0894a74",
+          "file": "aula.e2e.test.js",
+          "line": 73,
+          "column": 1
+        },
+        {
+          "title": "E2E10 conserva los mensajes al recargar durante la sesión",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1506,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:05:20.886Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\thehe\\Documents\\Practica_AulaVirtual_Semana12\\proyecto-aulavirtual\\3. End-to-End (E2E) en navegador\\reports\\test-results\\aula.e2e-E2E10-conserva-lo-b95db--recargar-durante-la-sesión\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7a600257e6a0fdc0a72e-930316fe2917f0ff6ba1",
+          "file": "aula.e2e.test.js",
+          "line": 81,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-08T02:04:49.637Z",
+    "duration": 33577.066999999995,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

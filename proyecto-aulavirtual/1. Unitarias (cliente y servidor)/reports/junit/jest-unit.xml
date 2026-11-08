@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="24" failures="0" errors="0" time="3.476">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-11-08T02:04:38" time="0.864" tests="8">
+    <testcase classname=" initialize carga perfil, cursos y mensajes y respeta la vista inicial" name=" initialize carga perfil, cursos y mensajes y respeta la vista inicial" time="0.144" file="1. Unitarias (cliente y servidor)\app.behavior.unit.test.js">
+    </testcase>
+    <testcase classname=" initialize muestra el error del servidor escapado cuando falla una solicitud" name=" initialize muestra el error del servidor escapado cuando falla una solicitud" time="0.042" file="1. Unitarias (cliente y servidor)\app.behavior.unit.test.js">
+    </testcase>
+    <testcase classname=" initialize usa el mensaje genérico cuando fetch falla sin respuesta HTTP" name=" initialize usa el mensaje genérico cuando fetch falla sin respuesta HTTP" time="0.051" file="1. Unitarias (cliente y servidor)\app.behavior.unit.test.js">
+    </testcase>
+    <testcase classname=" bindEvents conecta navegación, accesos, diálogo y menú lateral" name=" bindEvents conecta navegación, accesos, diálogo y menú lateral" time="0.085" file="1. Unitarias (cliente y servidor)\app.behavior.unit.test.js">
+    </testcase>
+    <testcase classname=" submit del formulario detiene los datos inválidos sin llamar a la API" name=" submit del formulario detiene los datos inválidos sin llamar a la API" time="0.048" file="1. Unitarias (cliente y servidor)\app.behavior.unit.test.js">
+    </testcase>
+    <testcase classname=" submit válido guarda y muestra el mensaje y reactiva el botón" name=" submit válido guarda y muestra el mensaje y reactiva el botón" time="0.063" file="1. Unitarias (cliente y servidor)\app.behavior.unit.test.js">
+    </testcase>
+    <testcase classname=" submit conserva el formulario y muestra fallo HTTP" name=" submit conserva el formulario y muestra fallo HTTP" time="0.044" file="1. Unitarias (cliente y servidor)\app.behavior.unit.test.js">
+    </testcase>
+    <testcase classname=" submit conserva el formulario y muestra error sin detalle" name=" submit conserva el formulario y muestra error sin detalle" time="0.044" file="1. Unitarias (cliente y servidor)\app.behavior.unit.test.js">
+    </testcase>
+  </testsuite>
+  <testsuite name="lógica del cliente del aula virtual" errors="0" failures="0" skipped="0" timestamp="2026-11-08T02:04:39" time="0.382" tests="13">
+    <testcase classname="lógica del cliente del aula virtual escapa caracteres HTML especiales" name="lógica del cliente del aula virtual escapa caracteres HTML especiales" time="0.023" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual renderiza una fila de curso con promedio y progreso" name="lógica del cliente del aula virtual renderiza una fila de curso con promedio y progreso" time="0.023" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual escapa el contenido no confiable de un curso" name="lógica del cliente del aula virtual escapa el contenido no confiable de un curso" time="0.019" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual renderiza cursos, notas y opciones de selección" name="lógica del cliente del aula virtual renderiza cursos, notas y opciones de selección" time="0.037" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual muestra el estado vacío de la bandeja" name="lógica del cliente del aula virtual muestra el estado vacío de la bandeja" time="0.019" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual renderiza mensajes del más reciente al más antiguo" name="lógica del cliente del aula virtual renderiza mensajes del más reciente al más antiguo" time="0.02" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual escapa contenido de mensajes antes de insertarlo en la bandeja" name="lógica del cliente del aula virtual escapa contenido de mensajes antes de insertarlo en la bandeja" time="0.022" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual muestra una sección válida y actualiza navegación" name="lógica del cliente del aula virtual muestra una sección válida y actualiza navegación" time="0.034" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual ignora una sección inexistente sin cambiar la vista" name="lógica del cliente del aula virtual ignora una sección inexistente sin cambiar la vista" time="0.024" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual rechaza curso, asunto o mensaje ausentes y valores con solo espacios" name="lógica del cliente del aula virtual rechaza curso, asunto o mensaje ausentes y valores con solo espacios" time="0.015" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual valida los límites inferior y superior del asunto" name="lógica del cliente del aula virtual valida los límites inferior y superior del asunto" time="0.013" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual valida los límites inferior y superior del mensaje" name="lógica del cliente del aula virtual valida los límites inferior y superior del mensaje" time="0.014" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+    <testcase classname="lógica del cliente del aula virtual permite continuar con un mensaje válido" name="lógica del cliente del aula virtual permite continuar con un mensaje válido" time="0.017" file="1. Unitarias (cliente y servidor)\app.unit.test.js">
+    </testcase>
+  </testsuite>
+  <testsuite name="lectura unitaria de solicitudes JSON" errors="0" failures="0" skipped="0" timestamp="2026-11-08T02:04:40" time="0.117" tests="3">
+    <testcase classname="lectura unitaria de solicitudes JSON obtiene el objeto de un cuerpo JSON válido" name="lectura unitaria de solicitudes JSON obtiene el objeto de un cuerpo JSON válido" time="0.003" file="1. Unitarias (cliente y servidor)\server.unit.test.js">
+    </testcase>
+    <testcase classname="lectura unitaria de solicitudes JSON rechaza un cuerpo JSON mal formado con estado 400" name="lectura unitaria de solicitudes JSON rechaza un cuerpo JSON mal formado con estado 400" time="0.001" file="1. Unitarias (cliente y servidor)\server.unit.test.js">
+    </testcase>
+    <testcase classname="lectura unitaria de solicitudes JSON rechaza un cuerpo mayor de 16 KiB con estado 413" name="lectura unitaria de solicitudes JSON rechaza un cuerpo mayor de 16 KiB con estado 413" time="0.001" file="1. Unitarias (cliente y servidor)\server.unit.test.js">
+    </testcase>
+  </testsuite>
+</testsuites>

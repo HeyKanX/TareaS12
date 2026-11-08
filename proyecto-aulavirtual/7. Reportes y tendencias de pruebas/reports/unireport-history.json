@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2026-11-06T23:02:45.124Z",
+    "total": 38,
+    "passed": 38,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "passRate": 100,
+    "flakyRate": 0,
+    "stability": 100,
+    "sources": [
+      "1. Unitarias (cliente y servidor)\\reports\\junit\\jest-unit.xml",
+      "2. Integración_API (servidor Node.js)\\reports\\junit\\jest-api.xml",
+      "3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+    ]
+  },
+  {
+    "date": "2026-11-06T23:04:48.413Z",
+    "total": 38,
+    "passed": 38,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "passRate": 100,
+    "flakyRate": 0,
+    "stability": 100,
+    "sources": [
+      "1. Unitarias (cliente y servidor)\\reports\\junit\\jest-unit.xml",
+      "2. Integración_API (servidor Node.js)\\reports\\junit\\jest-api.xml",
+      "3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+    ]
+  },
+  {
+    "date": "2026-11-06T23:06:34.151Z",
+    "total": 38,
+    "passed": 38,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "passRate": 100,
+    "flakyRate": 0,
+    "stability": 100,
+    "sources": [
+      "1. Unitarias (cliente y servidor)\\reports\\junit\\jest-unit.xml",
+      "2. Integración_API (servidor Node.js)\\reports\\junit\\jest-api.xml",
+      "3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+    ]
+  },
+  {
+    "date": "2026-11-06T23:16:56.312Z",
+    "total": 38,
+    "passed": 38,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "passRate": 100,
+    "flakyRate": 0,
+    "stability": 100,
+    "sources": [
+      "1. Unitarias (cliente y servidor)\\reports\\junit\\jest-unit.xml",
+      "2. Integración_API (servidor Node.js)\\reports\\junit\\jest-api.xml",
+      "3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+    ]
+  },
+  {
+    "date": "2026-11-06T23:27:58.163Z",
+    "total": 38,
+    "passed": 38,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "passRate": 100,
+    "flakyRate": 0,
+    "stability": 100,
+    "sources": [
+      "1. Unitarias (cliente y servidor)\\reports\\junit\\jest-unit.xml",
+      "2. Integración_API (servidor Node.js)\\reports\\junit\\jest-api.xml",
+      "3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+    ]
+  },
+  {
+    "date": "2026-11-06T23:35:06.316Z",
+    "total": 38,
+    "passed": 38,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "passRate": 100,
+    "flakyRate": 0,
+    "stability": 100,
+    "sources": [
+      "1. Unitarias (cliente y servidor)\\reports\\junit\\jest-unit.xml",
+      "2. Integración_API (servidor Node.js)\\reports\\junit\\jest-api.xml",
+      "3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+    ]
+  },
+  {
+    "date": "2026-11-08T00:24:11.924Z",
+    "total": 46,
+    "passed": 46,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "passRate": 100,
+    "flakyRate": 0,
+    "stability": 100,
+    "sources": [
+      "1. Unitarias (cliente y servidor)\\reports\\junit\\jest-unit.xml",
+      "2. Integración_API (servidor Node.js)\\reports\\junit\\jest-api.xml",
+      "3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+    ]
+  },
+  {
+    "date": "2026-11-08T01:59:27.448Z",
+    "total": 46,
+    "passed": 46,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "passRate": 100,
+    "flakyRate": 0,
+    "stability": 100,
+    "sources": [
+      "1. Unitarias (cliente y servidor)\\reports\\junit\\jest-unit.xml",
+      "2. Integración_API (servidor Node.js)\\reports\\junit\\jest-api.xml",
+      "3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+    ]
+  },
+  {
+    "date": "2026-11-08T02:05:24.268Z",
+    "total": 46,
+    "passed": 46,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "passRate": 100,
+    "flakyRate": 0,
+    "stability": 100,
+    "sources": [
+      "1. Unitarias (cliente y servidor)\\reports\\junit\\jest-unit.xml",
+      "2. Integración_API (servidor Node.js)\\reports\\junit\\jest-api.xml",
+      "3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml"
+    ]
+  }
+]

@@ -1,0 +1,460 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="191" lines-covered="180" line-rate="0.9423999999999999" branches-valid="99" branches-covered="76" branch-rate="0.7676000000000001" timestamp="1794103488197" complexity="0" version="0.1">
+  <sources>
+    <source>C:\Users\thehe\Documents\Practica_AulaVirtual_Semana12\proyecto-aulavirtual</source>
+  </sources>
+  <packages>
+    <package name="app" line-rate="0.9722" branch-rate="0.8571">
+      <classes>
+        <class name="app.js" filename="app\app.js" line-rate="0.9722" branch-rate="0.8571">
+          <methods>
+            <method name="(anonymous_0)" hits="490" signature="()V">
+              <lines>
+                <line number="7" hits="490"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="16" signature="()V">
+              <lines>
+                <line number="7" hits="16"/>
+              </lines>
+            </method>
+            <method name="request" hits="12" signature="()V">
+              <lines>
+                <line number="11" hits="12"/>
+              </lines>
+            </method>
+            <method name="renderCourseRow" hits="40" signature="()V">
+              <lines>
+                <line number="18" hits="40"/>
+              </lines>
+            </method>
+            <method name="validateMessagePayload" hits="16" signature="()V">
+              <lines>
+                <line number="27" hits="16"/>
+              </lines>
+            </method>
+            <method name="isWithinLength" hits="23" signature="()V">
+              <lines>
+                <line number="45" hits="23"/>
+              </lines>
+            </method>
+            <method name="renderCourses" hits="10" signature="()V">
+              <lines>
+                <line number="49" hits="10"/>
+              </lines>
+            </method>
+            <method name="(anonymous_7)" hits="38" signature="()V">
+              <lines>
+                <line number="51" hits="38"/>
+              </lines>
+            </method>
+            <method name="(anonymous_8)" hits="38" signature="()V">
+              <lines>
+                <line number="59" hits="38"/>
+              </lines>
+            </method>
+            <method name="(anonymous_9)" hits="114" signature="()V">
+              <lines>
+                <line number="61" hits="114"/>
+              </lines>
+            </method>
+            <method name="(anonymous_10)" hits="38" signature="()V">
+              <lines>
+                <line number="65" hits="38"/>
+              </lines>
+            </method>
+            <method name="renderMessages" hits="5" signature="()V">
+              <lines>
+                <line number="69" hits="5"/>
+              </lines>
+            </method>
+            <method name="(anonymous_12)" hits="5" signature="()V">
+              <lines>
+                <line number="75" hits="5"/>
+              </lines>
+            </method>
+            <method name="showToast" hits="1" signature="()V">
+              <lines>
+                <line number="82" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_14)" hits="1" signature="()V">
+              <lines>
+                <line number="87" hits="1"/>
+              </lines>
+            </method>
+            <method name="showView" hits="7" signature="()V">
+              <lines>
+                <line number="90" hits="7"/>
+              </lines>
+            </method>
+            <method name="(anonymous_16)" hits="30" signature="()V">
+              <lines>
+                <line number="93" hits="30"/>
+              </lines>
+            </method>
+            <method name="(anonymous_17)" hits="30" signature="()V">
+              <lines>
+                <line number="95" hits="30"/>
+              </lines>
+            </method>
+            <method name="openMessageDialog" hits="1" signature="()V">
+              <lines>
+                <line number="103" hits="1"/>
+              </lines>
+            </method>
+            <method name="closeSidebar" hits="7" signature="()V">
+              <lines>
+                <line number="108" hits="7"/>
+              </lines>
+            </method>
+            <method name="initialize" hits="3" signature="()V">
+              <lines>
+                <line number="114" hits="3"/>
+              </lines>
+            </method>
+            <method name="bindEvents" hits="5" signature="()V">
+              <lines>
+                <line number="137" hits="5"/>
+              </lines>
+            </method>
+            <method name="(anonymous_22)" hits="40" signature="()V">
+              <lines>
+                <line number="138" hits="40"/>
+              </lines>
+            </method>
+            <method name="(anonymous_23)" hits="1" signature="()V">
+              <lines>
+                <line number="138" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_24)" hits="10" signature="()V">
+              <lines>
+                <line number="142" hits="10"/>
+              </lines>
+            </method>
+            <method name="(anonymous_25)" hits="1" signature="()V">
+              <lines>
+                <line number="143" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_26)" hits="1" signature="()V">
+              <lines>
+                <line number="144" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_27)" hits="1" signature="()V">
+              <lines>
+                <line number="145" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_28)" hits="2" signature="()V">
+              <lines>
+                <line number="146" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_29)" hits="4" signature="()V">
+              <lines>
+                <line number="153" hits="4"/>
+              </lines>
+            </method>
+            <method name="setCourses" hits="21" signature="()V">
+              <lines>
+                <line number="184" hits="21"/>
+              </lines>
+            </method>
+            <method name="setMessages" hits="23" signature="()V">
+              <lines>
+                <line number="188" hits="23"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+            <line number="2" hits="2" branch="false"/>
+            <line number="3" hits="2" branch="false"/>
+            <line number="4" hits="2" branch="false"/>
+            <line number="7" hits="490" branch="false"/>
+            <line number="12" hits="12" branch="false"/>
+            <line number="13" hits="9" branch="false"/>
+            <line number="14" hits="9" branch="true" condition-coverage="100% (4/4)"/>
+            <line number="15" hits="4" branch="false"/>
+            <line number="19" hits="40" branch="false"/>
+            <line number="20" hits="40" branch="false"/>
+            <line number="28" hits="16" branch="true" condition-coverage="80% (4/5)"/>
+            <line number="29" hits="0" branch="false"/>
+            <line number="31" hits="16" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="32" hits="16" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="33" hits="16" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="34" hits="3" branch="false"/>
+            <line number="36" hits="13" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="37" hits="3" branch="false"/>
+            <line number="39" hits="10" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="40" hits="2" branch="false"/>
+            <line number="42" hits="8" branch="false"/>
+            <line number="46" hits="23" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="50" hits="10" branch="false"/>
+            <line number="51" hits="38" branch="false"/>
+            <line number="59" hits="38" branch="false"/>
+            <line number="61" hits="114" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="64" hits="10" branch="false"/>
+            <line number="65" hits="10" branch="false"/>
+            <line number="66" hits="38" branch="false"/>
+            <line number="70" hits="5" branch="false"/>
+            <line number="71" hits="5" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="72" hits="1" branch="false"/>
+            <line number="73" hits="1" branch="false"/>
+            <line number="75" hits="5" branch="false"/>
+            <line number="83" hits="1" branch="false"/>
+            <line number="84" hits="1" branch="false"/>
+            <line number="85" hits="1" branch="false"/>
+            <line number="86" hits="1" branch="false"/>
+            <line number="87" hits="1" branch="false"/>
+            <line number="91" hits="7" branch="false"/>
+            <line number="92" hits="7" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="93" hits="30" branch="false"/>
+            <line number="94" hits="6" branch="false"/>
+            <line number="95" hits="30" branch="false"/>
+            <line number="96" hits="6" branch="false"/>
+            <line number="99" hits="6" branch="false"/>
+            <line number="100" hits="6" branch="false"/>
+            <line number="104" hits="1" branch="false"/>
+            <line number="105" hits="1" branch="false"/>
+            <line number="109" hits="7" branch="false"/>
+            <line number="110" hits="7" branch="false"/>
+            <line number="111" hits="7" branch="false"/>
+            <line number="115" hits="3" branch="false"/>
+            <line number="116" hits="3" branch="false"/>
+            <line number="119" hits="3" branch="false"/>
+            <line number="122" hits="1" branch="false"/>
+            <line number="123" hits="1" branch="false"/>
+            <line number="124" hits="1" branch="false"/>
+            <line number="125" hits="1" branch="false"/>
+            <line number="126" hits="1" branch="false"/>
+            <line number="127" hits="1" branch="false"/>
+            <line number="128" hits="1" branch="false"/>
+            <line number="129" hits="1" branch="false"/>
+            <line number="130" hits="1" branch="false"/>
+            <line number="131" hits="1" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="133" hits="2" branch="false"/>
+            <line number="138" hits="40" branch="false"/>
+            <line number="139" hits="1" branch="false"/>
+            <line number="140" hits="1" branch="false"/>
+            <line number="142" hits="10" branch="false"/>
+            <line number="143" hits="5" branch="false"/>
+            <line number="144" hits="5" branch="false"/>
+            <line number="145" hits="5" branch="false"/>
+            <line number="146" hits="5" branch="false"/>
+            <line number="147" hits="2" branch="false"/>
+            <line number="148" hits="2" branch="false"/>
+            <line number="149" hits="2" branch="false"/>
+            <line number="150" hits="2" branch="false"/>
+            <line number="152" hits="5" branch="false"/>
+            <line number="153" hits="5" branch="false"/>
+            <line number="154" hits="4" branch="false"/>
+            <line number="155" hits="4" branch="false"/>
+            <line number="156" hits="4" branch="false"/>
+            <line number="157" hits="4" branch="false"/>
+            <line number="158" hits="4" branch="false"/>
+            <line number="159" hits="4" branch="false"/>
+            <line number="160" hits="4" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="161" hits="1" branch="false"/>
+            <line number="162" hits="1" branch="false"/>
+            <line number="164" hits="3" branch="false"/>
+            <line number="165" hits="3" branch="false"/>
+            <line number="166" hits="3" branch="false"/>
+            <line number="167" hits="3" branch="false"/>
+            <line number="170" hits="1" branch="false"/>
+            <line number="171" hits="1" branch="false"/>
+            <line number="172" hits="1" branch="false"/>
+            <line number="173" hits="1" branch="false"/>
+            <line number="174" hits="1" branch="false"/>
+            <line number="175" hits="1" branch="false"/>
+            <line number="177" hits="2" branch="false"/>
+            <line number="179" hits="3" branch="false"/>
+            <line number="185" hits="21" branch="false"/>
+            <line number="189" hits="23" branch="false"/>
+            <line number="192" hits="2" branch="true" condition-coverage="75% (3/4)"/>
+            <line number="193" hits="2" branch="false"/>
+            <line number="206" hits="0" branch="false"/>
+            <line number="207" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="backend" line-rate="0.9036" branch-rate="0.7187">
+      <classes>
+        <class name="server.js" filename="backend\server.js" line-rate="0.9036" branch-rate="0.7187">
+          <methods>
+            <method name="createMessage" hits="9" signature="()V">
+              <lines>
+                <line number="34" hits="9"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="16" signature="()V">
+              <lines>
+                <line number="35" hits="16"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="9" signature="()V">
+              <lines>
+                <line number="45" hits="9"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="6" signature="()V">
+              <lines>
+                <line number="45" hits="6"/>
+              </lines>
+            </method>
+            <method name="sendJson" hits="32" signature="()V">
+              <lines>
+                <line number="52" hits="32"/>
+              </lines>
+            </method>
+            <method name="readJson" hits="14" signature="()V">
+              <lines>
+                <line number="61" hits="14"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="14" signature="()V">
+              <lines>
+                <line number="62" hits="14"/>
+              </lines>
+            </method>
+            <method name="(anonymous_7)" hits="14" signature="()V">
+              <lines>
+                <line number="65" hits="14"/>
+              </lines>
+            </method>
+            <method name="(anonymous_8)" hits="14" signature="()V">
+              <lines>
+                <line number="73" hits="14"/>
+              </lines>
+            </method>
+            <method name="serveStatic" hits="5" signature="()V">
+              <lines>
+                <line number="85" hits="5"/>
+              </lines>
+            </method>
+            <method name="(anonymous_10)" hits="4" signature="()V">
+              <lines>
+                <line number="99" hits="4"/>
+              </lines>
+            </method>
+            <method name="postMessage" hits="11" signature="()V">
+              <lines>
+                <line number="115" hits="11"/>
+              </lines>
+            </method>
+            <method name="handleApiRequest" hits="35" signature="()V">
+              <lines>
+                <line number="133" hits="35"/>
+              </lines>
+            </method>
+            <method name="handleRequest" hits="35" signature="()V">
+              <lines>
+                <line number="152" hits="35"/>
+              </lines>
+            </method>
+            <method name="createServer" hits="12" signature="()V">
+              <lines>
+                <line number="162" hits="12"/>
+              </lines>
+            </method>
+            <method name="(anonymous_15)" hits="0" signature="()V">
+              <lines>
+                <line number="172" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+            <line number="2" hits="2" branch="false"/>
+            <line number="3" hits="2" branch="false"/>
+            <line number="5" hits="2" branch="false"/>
+            <line number="6" hits="2" branch="false"/>
+            <line number="8" hits="2" branch="false"/>
+            <line number="18" hits="2" branch="false"/>
+            <line number="25" hits="2" branch="false"/>
+            <line number="26" hits="2" branch="false"/>
+            <line number="35" hits="16" branch="false"/>
+            <line number="36" hits="9" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="37" hits="9" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="38" hits="9" branch="true" condition-coverage="100% (5/5)"/>
+            <line number="39" hits="9" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="40" hits="3" branch="false"/>
+            <line number="45" hits="9" branch="false"/>
+            <line number="53" hits="32" branch="false"/>
+            <line number="58" hits="32" branch="false"/>
+            <line number="62" hits="14" branch="false"/>
+            <line number="63" hits="14" branch="false"/>
+            <line number="64" hits="14" branch="false"/>
+            <line number="65" hits="14" branch="false"/>
+            <line number="66" hits="14" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="67" hits="14" branch="false"/>
+            <line number="68" hits="14" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="69" hits="2" branch="false"/>
+            <line number="70" hits="2" branch="false"/>
+            <line number="73" hits="14" branch="false"/>
+            <line number="74" hits="14" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="75" hits="12" branch="false"/>
+            <line number="76" hits="12" branch="false"/>
+            <line number="78" hits="2" branch="false"/>
+            <line number="81" hits="14" branch="false"/>
+            <line number="87" hits="5" branch="false"/>
+            <line number="88" hits="5" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="90" hits="0" branch="false"/>
+            <line number="91" hits="0" branch="false"/>
+            <line number="93" hits="5" branch="false"/>
+            <line number="94" hits="5" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="95" hits="1" branch="false"/>
+            <line number="96" hits="1" branch="false"/>
+            <line number="99" hits="4" branch="false"/>
+            <line number="100" hits="4" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="101" hits="1" branch="true" condition-coverage="50% (2/4)"/>
+            <line number="102" hits="1" branch="false"/>
+            <line number="104" hits="3" branch="false"/>
+            <line number="111" hits="3" branch="false"/>
+            <line number="116" hits="11" branch="false"/>
+            <line number="117" hits="11" branch="false"/>
+            <line number="118" hits="9" branch="true" condition-coverage="80% (4/5)"/>
+            <line number="119" hits="9" branch="false"/>
+            <line number="120" hits="9" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="121" hits="6" branch="false"/>
+            <line number="122" hits="6" branch="false"/>
+            <line number="124" hits="3" branch="false"/>
+            <line number="125" hits="3" branch="false"/>
+            <line number="127" hits="2" branch="true" condition-coverage="75% (3/4)"/>
+            <line number="128" hits="2" branch="true" condition-coverage="50% (2/4)"/>
+            <line number="134" hits="35" branch="true" condition-coverage="100% (5/5)"/>
+            <line number="136" hits="1" branch="false"/>
+            <line number="137" hits="1" branch="false"/>
+            <line number="139" hits="1" branch="false"/>
+            <line number="140" hits="1" branch="false"/>
+            <line number="142" hits="16" branch="false"/>
+            <line number="143" hits="16" branch="false"/>
+            <line number="145" hits="11" branch="false"/>
+            <line number="146" hits="11" branch="false"/>
+            <line number="148" hits="6" branch="false"/>
+            <line number="153" hits="35" branch="false"/>
+            <line number="154" hits="35" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="155" hits="6" branch="true" condition-coverage="100% (4/4)"/>
+            <line number="156" hits="5" branch="false"/>
+            <line number="157" hits="5" branch="false"/>
+            <line number="159" hits="1" branch="false"/>
+            <line number="163" hits="12" branch="false"/>
+            <line number="166" hits="2" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="167" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="168" hits="0" branch="true" condition-coverage="0% (0/5)"/>
+            <line number="169" hits="0" branch="false"/>
+            <line number="170" hits="0" branch="false"/>
+            <line number="172" hits="0" branch="false"/>
+            <line number="173" hits="0" branch="false"/>
+            <line number="178" hits="2" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

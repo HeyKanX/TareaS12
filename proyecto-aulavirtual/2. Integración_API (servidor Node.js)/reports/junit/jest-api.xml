@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="12" failures="0" errors="0" time="1.209">
+  <testsuite name="integración HTTP de Aula Nova" errors="0" failures="0" skipped="0" timestamp="2026-11-08T02:04:42" time="0.748" tests="12">
+    <testcase classname="integración HTTP de Aula Nova sirve la página principal con cabeceras de seguridad" name="integración HTTP de Aula Nova sirve la página principal con cabeceras de seguridad" time="0.044" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+    <testcase classname="integración HTTP de Aula Nova sirve los recursos CSS y JavaScript" name="integración HTTP de Aula Nova sirve los recursos CSS y JavaScript" time="0.014" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+    <testcase classname="integración HTTP de Aula Nova devuelve el perfil con su estructura académica" name="integración HTTP de Aula Nova devuelve el perfil con su estructura académica" time="0.01" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+    <testcase classname="integración HTTP de Aula Nova devuelve cuatro cursos con notas y T3 pendiente" name="integración HTTP de Aula Nova devuelve cuatro cursos con notas y T3 pendiente" time="0.011" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+    <testcase classname="integración HTTP de Aula Nova devuelve la bandeja como un arreglo de mensajes" name="integración HTTP de Aula Nova devuelve la bandeja como un arreglo de mensajes" time="0.011" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+    <testcase classname="integración HTTP de Aula Nova registra un mensaje válido y asigna el docente del curso" name="integración HTTP de Aula Nova registra un mensaje válido y asigna el docente del curso" time="0.01" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+    <testcase classname="integración HTTP de Aula Nova mantiene temporalmente los mensajes durante la vida del servidor" name="integración HTTP de Aula Nova mantiene temporalmente los mensajes durante la vida del servidor" time="0.017" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+    <testcase classname="integración HTTP de Aula Nova rechaza un curso inexistente sin guardar el mensaje" name="integración HTTP de Aula Nova rechaza un curso inexistente sin guardar el mensaje" time="0.015" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+    <testcase classname="integración HTTP de Aula Nova rechaza campos ausentes y longitudes fuera de límites" name="integración HTTP de Aula Nova rechaza campos ausentes y longitudes fuera de límites" time="0.024" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+    <testcase classname="integración HTTP de Aula Nova rechaza JSON mal formado" name="integración HTTP de Aula Nova rechaza JSON mal formado" time="0.007" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+    <testcase classname="integración HTTP de Aula Nova rechaza cuerpos que superan 16 KiB" name="integración HTTP de Aula Nova rechaza cuerpos que superan 16 KiB" time="0.007" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+    <testcase classname="integración HTTP de Aula Nova devuelve 404 para rutas desconocidas y 403 fuera de app" name="integración HTTP de Aula Nova devuelve 404 para rutas desconocidas y 403 fuera de app" time="0.009" file="2. Integración_API (servidor Node.js)\server.api.test.js">
+    </testcase>
+  </testsuite>
+</testsuites>
