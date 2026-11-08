@@ -10,3 +10,5 @@ Este repositorio contiene los entregables solicitados en la tarea:
 La carpeta [`proyecto-aulavirtual`](./proyecto-aulavirtual) permite revisar cada archivo. El ZIP [`Entregables_AulaVirtual_Semana12.zip`](./Entregables_AulaVirtual_Semana12.zip) contiene la carpeta del proyecto empaquetada, sin `node_modules`; instala dependencias con `npm ci`.
 
 Consulta [`proyecto-aulavirtual/README.md`](./proyecto-aulavirtual/README.md) para ejecutar el flujo de calidad con `npm run quality`.
+
+La rama [`simulacion-fallos-80`](https://github.com/HeyKanX/TareaS12/tree/simulacion-fallos-80) agrega una corrida didáctica independiente que llega al 80% y conserva `main` con los entregables originales. Consulta [`SIMULACION_FALLOS.md`](./proyecto-aulavirtual/7.%20Reportes%20y%20tendencias%20de%20pruebas/SIMULACION_FALLOS.md) para reproducirla.

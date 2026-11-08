@@ -57,3 +57,5 @@ Las capturas visuales están organizadas en [`evidencias/`](evidencias/README.md
 
 
 Consulta [GUIA_DEMOSTRACION.md](GUIA_DEMOSTRACION.md) para preparar la sustentación práctica.
+
+Para una corrida didáctica separada con escenarios de fallos del caso ficticio, consulta [SIMULACION_FALLOS.md](7.%20Reportes%20y%20tendencias%20de%20pruebas/SIMULACION_FALLOS.md). Esa simulación no altera la batería base ni sus reportes.

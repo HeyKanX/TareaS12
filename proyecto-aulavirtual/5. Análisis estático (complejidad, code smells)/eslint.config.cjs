@@ -45,6 +45,10 @@ module.exports = [
     languageOptions: { globals: { ...nodeAndJest, ...globals.browser } },
   },
   {
+    files: ["7. Reportes y tendencias de pruebas/*.test.js"],
+    languageOptions: { globals: { ...nodeAndJest, ...globals.browser } },
+  },
+  {
     files: ["3. End-to-End (E2E) en navegador/**/*.js"],
     languageOptions: { globals: { ...globals.node, ...globals.jest } },
   },

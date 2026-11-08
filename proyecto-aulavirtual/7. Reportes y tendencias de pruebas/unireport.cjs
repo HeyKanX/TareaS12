@@ -6,13 +6,15 @@ const { XMLParser } = require("fast-xml-parser");
 
 const rootDir = path.resolve(__dirname, "..");
 const reportDir = path.join(__dirname, "reports");
+const simulationMode = process.argv.includes("--simulation");
 const junitDirs = [
   path.join(rootDir, "1. Unitarias (cliente y servidor)", "reports", "junit"),
   path.join(rootDir, "2. Integración_API (servidor Node.js)", "reports", "junit"),
   path.join(rootDir, "3. End-to-End (E2E) en navegador", "reports", "junit"),
+  ...(simulationMode ? [path.join(reportDir, "simulation", "junit")] : []),
 ];
-const historyPath = path.join(reportDir, "unireport-history.json");
-const outputPath = path.join(reportDir, "unireport.html");
+const historyPath = path.join(reportDir, simulationMode ? "unireport-simulacion-history.json" : "unireport-history.json");
+const outputPath = path.join(reportDir, simulationMode ? "unireport-simulacion.html" : "unireport.html");
 
 function asArray(value) {
   if (value === null || value === undefined) return [];
@@ -90,24 +92,30 @@ function renderHtml(result, history) {
     <td>${run.total}</td><td>${run.passed}</td><td>${run.failed}</td>
     <td>${run.passRate}%</td><td>${run.stability}%</td><td>${run.flakyRate}%</td></tr>`).join("");
   const sources = result.sources.length ? result.sources.map(escapeHtml).join(", ") : "No hay XML JUnit; ejecuta las suites primero.";
+  const heading = simulationMode ? "UniReport — Simulación de fallos" : "UniReport — Aula Virtual";
+  const description = simulationMode
+    ? "Corrida académica de simulación con escenarios ampliados para observar fallos reproducibles."
+    : "Resultados de Jest y Playwright en formato JUnit.";
+  const countNote = simulationMode
+    ? "Este reporte combina la batería original con 14 escenarios adicionales de simulación, identificados con el prefijo SIMULACIÓN. Se usa para analizar fallos en el caso ficticio del curso; el dashboard principal conserva los resultados base."
+    : "La batería base reúne pruebas unitarias, de API y E2E. Los escenarios k6 se reportan en su resumen JSON, no como casos JUnit.";
   return `<!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>UniReport — Aula Virtual</title>
+<title>${heading}</title>
 <style>
 body{font:16px system-ui,sans-serif;max-width:1100px;margin:36px auto;padding:0 20px;color:#1d2737;background:#f5f7fb}
 h1{color:#253a64}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
 .card,section{background:#fff;border:1px solid #dce3ec;border-radius:10px;padding:20px;box-shadow:0 2px 6px #1d273710}.value{font-size:2rem;font-weight:700;color:#239b70}
 .label,footer{color:#627086}table{width:100%;border-collapse:collapse;margin-top:12px}th,td{text-align:left;padding:9px;border-bottom:1px solid #e5eaf0}.note{border-left:4px solid #e0a43b;padding:10px 14px;background:#fff8e9;border-radius:4px}
-</style></head><body><h1>UniReport — Aula Virtual</h1>
-<p>Resultados de Jest y Playwright en formato JUnit.</p>
+</style></head><body><h1>${heading}</h1>
+<p>${description}</p>
 <div class="cards">
 <article class="card"><div class="value">${result.passRate}%</div><div class="label">Pass Rate</div></article>
 <article class="card"><div class="value">${result.stability}%</div><div class="label">Stability Score</div></article>
 <article class="card"><div class="value">${result.flakyRate}%</div><div class="label">Flaky</div></article>
 <article class="card"><div class="value">${result.passed}/${result.total}</div><div class="label">Pruebas JUnit aprobadas</div></article>
-</div><section><h2>Conteo frente al registro</h2>
-<p>El Excel registra 40 casos: 15 unitarios, 12 de API, 10 E2E y 3 de rendimiento. Este dashboard cuenta 38 pruebas automatizadas JUnit: 16 unitarias, 12 de API y 10 E2E. Los escenarios k6 se reportan en su resumen JSON, no como casos JUnit.</p>
-<p>La diferencia unitaria incluye una prueba automatizada adicional sobre cursos, notas y opciones; además, algunas pruebas JUnit verifican juntas condiciones que el registro separa en casos CP. Por eso el total JUnit no representa directamente el total de casos registrados.</p></section>
+</div><section><h2>${simulationMode ? "Escenarios de la simulación" : "Resumen de pruebas"}</h2>
+<p>${countNote}</p></section>
 <section><h2>Tendencia (${history.length} ejecuciones)</h2>
 <table><thead><tr><th>Fecha</th><th>Total</th><th>Passed</th><th>Failed</th><th>Pass Rate</th><th>Stability</th><th>Flaky</th></tr></thead>
 <tbody>${rows || "<tr><td colspan='7'>Aún no hay ejecuciones.</td></tr>"}</tbody></table></section>
@@ -121,5 +129,5 @@ h1{color:#253a64}.cards{display:grid;grid-template-columns:repeat(auto-fit,minma
 const result = readResults();
 const history = saveHistory(result);
 fs.writeFileSync(outputPath, renderHtml(result, history), "utf8");
-console.log(`UniReport: ${result.passed}/${result.total} aprobadas; ${result.failed} fallidas; pass rate ${result.passRate}%.`);
+console.log(`${simulationMode ? "UniReport de simulación" : "UniReport"}: ${result.passed}/${result.total} aprobadas; ${result.failed} fallidas; pass rate ${result.passRate}%.`);
 console.log(`Dashboard: ${outputPath}`);

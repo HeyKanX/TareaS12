@@ -1,0 +1,36 @@
+[
+  {
+    "date": "2026-11-08T03:53:44.497Z",
+    "total": 60,
+    "passed": 48,
+    "failed": 12,
+    "skipped": 0,
+    "flaky": 0,
+    "passRate": 80,
+    "flakyRate": 0,
+    "stability": 80,
+    "sources": [
+      "1. Unitarias (cliente y servidor)\\reports\\junit\\jest-unit.xml",
+      "2. Integración_API (servidor Node.js)\\reports\\junit\\jest-api.xml",
+      "3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml",
+      "7. Reportes y tendencias de pruebas\\reports\\simulation\\junit\\simulacion.xml"
+    ]
+  },
+  {
+    "date": "2026-11-08T03:55:09.148Z",
+    "total": 60,
+    "passed": 48,
+    "failed": 12,
+    "skipped": 0,
+    "flaky": 0,
+    "passRate": 80,
+    "flakyRate": 0,
+    "stability": 80,
+    "sources": [
+      "1. Unitarias (cliente y servidor)\\reports\\junit\\jest-unit.xml",
+      "2. Integración_API (servidor Node.js)\\reports\\junit\\jest-api.xml",
+      "3. End-to-End (E2E) en navegador\\reports\\junit\\playwright.xml",
+      "7. Reportes y tendencias de pruebas\\reports\\simulation\\junit\\simulacion.xml"
+    ]
+  }
+]

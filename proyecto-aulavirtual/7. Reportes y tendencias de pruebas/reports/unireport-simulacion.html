@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UniReport — Simulación de fallos</title>
+<style>
+body{font:16px system-ui,sans-serif;max-width:1100px;margin:36px auto;padding:0 20px;color:#1d2737;background:#f5f7fb}
+h1{color:#253a64}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.card,section{background:#fff;border:1px solid #dce3ec;border-radius:10px;padding:20px;box-shadow:0 2px 6px #1d273710}.value{font-size:2rem;font-weight:700;color:#239b70}
+.label,footer{color:#627086}table{width:100%;border-collapse:collapse;margin-top:12px}th,td{text-align:left;padding:9px;border-bottom:1px solid #e5eaf0}.note{border-left:4px solid #e0a43b;padding:10px 14px;background:#fff8e9;border-radius:4px}
+</style></head><body><h1>UniReport — Simulación de fallos</h1>
+<p>Corrida académica de simulación con escenarios ampliados para observar fallos reproducibles.</p>
+<div class="cards">
+<article class="card"><div class="value">80%</div><div class="label">Pass Rate</div></article>
+<article class="card"><div class="value">80%</div><div class="label">Stability Score</div></article>
+<article class="card"><div class="value">0%</div><div class="label">Flaky</div></article>
+<article class="card"><div class="value">48/60</div><div class="label">Pruebas JUnit aprobadas</div></article>
+</div><section><h2>Escenarios de la simulación</h2>
+<p>Este reporte combina la batería original con 14 escenarios adicionales de simulación, identificados con el prefijo SIMULACIÓN. Se usa para analizar fallos en el caso ficticio del curso; el dashboard principal conserva los resultados base.</p></section>
+<section><h2>Tendencia (2 ejecuciones)</h2>
+<table><thead><tr><th>Fecha</th><th>Total</th><th>Passed</th><th>Failed</th><th>Pass Rate</th><th>Stability</th><th>Flaky</th></tr></thead>
+<tbody>
+    <tr><td>7/11/2026, 10:55:09 p. m.</td>
+    <td>60</td><td>48</td><td>12</td>
+    <td>80%</td><td>80%</td><td>0%</td></tr>
+    <tr><td>7/11/2026, 10:53:44 p. m.</td>
+    <td>60</td><td>48</td><td>12</td>
+    <td>80%</td><td>80%</td><td>0%</td></tr></tbody></table></section>
+<section><h2>Calidad estática (ESLint)</h2>
+<p class="note">ESLint analiza el código; no mide la estabilidad de las pruebas. Sus errores y advertencias se reportan aparte y no alteran Pass Rate, Stability Score ni Flaky.</p>
+<p>Consulta los resultados y reglas en <code>5. Análisis estático (complejidad, code smells)/reports/eslint.json</code>.</p></section>
+<footer><p>Flaky se cuenta desde el JSON de Playwright. Stability Score = (Pruebas aprobadas − Flaky) / Total.</p>
+<p>Fuentes JUnit: 1. Unitarias (cliente y servidor)\reports\junit\jest-unit.xml, 2. Integración_API (servidor Node.js)\reports\junit\jest-api.xml, 3. End-to-End (E2E) en navegador\reports\junit\playwright.xml, 7. Reportes y tendencias de pruebas\reports\simulation\junit\simulacion.xml</p><p>Actualizado: 7/11/2026, 10:55:09 p. m.</p></footer></body></html>

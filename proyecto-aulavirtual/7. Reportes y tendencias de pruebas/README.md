@@ -14,3 +14,7 @@ Se implementó una adaptación local de UniReport con `fast-xml-parser`: importa
 
 Desde la raíz ejecuta `npm test` para las suites y el dashboard, o `npm run report` para regenerarlo. Ejecuta la batería completa al menos tres veces para comparar tendencias.
 
+# Escenario opcional del curso
+
+La batería original conserva sus resultados. Para ejecutar el conjunto ficticio con fallas esperadas y un UniReport separado al 80%, consulta [SIMULACION_FALLOS.md](./SIMULACION_FALLOS.md) y ejecuta `npm run simulation`.
+

@@ -18,7 +18,8 @@
     "lint": "node \"5. Análisis estático (complejidad, code smells)/scripts/lint.cjs\"",
     "preload": "node -e \"require('node:fs').mkdirSync('6. Rendimiento (tiempos de respuesta, throughput)/reports/k6',{recursive:true})\"",
     "load": "k6 run --summary-trend-stats \"avg,min,med,max,p(90),p(95),p(99)\" --summary-export \"6. Rendimiento (tiempos de respuesta, throughput)/reports/k6/summary.json\" \"6. Rendimiento (tiempos de respuesta, throughput)/aula.js\"",
-    "report": "node \"7. Reportes y tendencias de pruebas/unireport.cjs\""
+    "report": "node \"7. Reportes y tendencias de pruebas/unireport.cjs\"",
+    "simulation": "node \"7. Reportes y tendencias de pruebas/run-simulation.cjs\""
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
